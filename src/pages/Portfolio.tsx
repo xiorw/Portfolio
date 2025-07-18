@@ -204,7 +204,7 @@ const Portfolio = () => {
     {
       title: "LibertyWalk Company Profile",
       description: "Simple front-end company profile website for Liberty Walk, built with HTML and CSS. It highlights the brand’s identity, services, and visual portfolio in a clean layout.",
-      image: "src/assets/projects/libertywalk.png",
+      image: "/projects/libertywalk.png",
       tech: ["HTML", "CSS"],
       demo: "https://lbwk-company-profile.vercel.app/",
       github: "https://github.com/xiorw/LBWK_CompanyProfile",
@@ -213,7 +213,7 @@ const Portfolio = () => {
     {
       title: "To-do List",
       description: "Simple and intuitive to-do list web app to help you stay organized and productive. Quickly add, check, and manage your daily tasks with ease.",
-      image: "src/assets/projects/todolist.jpg",
+      image: "/projects/todolist.jpg",
       tech: ["HTML", "CSS", "JavaScript"],
       demo: "https://to-do-list-app-sooty-omega.vercel.app/",
       github: "https://github.com/xiorw/To-Do-List_App",
@@ -222,7 +222,7 @@ const Portfolio = () => {
     {
       title: "Book a Book",
       description: "Backend system for managing book loans in a digital library. Includes features like book data management, member tracking, and loan status.",
-      image: "src/assets/projects/bookabook.jpg",
+      image: "/projects/bookabook.jpg",
       tech: ["PHP", "Laravel", "Blade", "JavaScript"],
       demo: "#",
       github: "https://github.com/xiorw/WebTechBook",
@@ -231,7 +231,7 @@ const Portfolio = () => {
     {
       title: "Customer Relationship Management",
       description: "Backend app to manage customer data and visualize relationship diagrams, supporting CRM functionalities like interaction tracking and analytics.",
-      image: "src/assets/projects/crm.jpg",
+      image: "/projects/crm.jpg",
       tech: ["PHP", "Laravel", "Blade", "JavaScript"],
       demo: "#",
       github: "https://github.com/xiorw/CRMSystem",
@@ -240,7 +240,7 @@ const Portfolio = () => {
     {
       title: "Evolix Clothes",
       description: "Fullstack e-commerce website for Evolix, a modern clothing store. Features product browsing, cart system, and user management with a clean UI",
-      image: "src/assets/projects/evolixclothes.png",
+      image: "/projects/evolixclothes.png",
       tech: ["PHP", "Laravel", "Blade", "TailwindCSS", "JavaScript"],
       demo: "https://evolixclothes-static.vercel.app/",
       github: "https://github.com/xiorw/evolixclothes",
@@ -249,7 +249,7 @@ const Portfolio = () => {
     {
       title: "MindMate",
       description: "Supportive mental health companion app designed to help individuals track moods, write daily journals, and gain insights — built to promote self-awareness and emotional well-being.",
-      image: "src/assets/projects/mindmate.png",
+      image: "/projects/mindmate.png",
       tech: ["SolidJS", "TypeScript", "TailwindCSS"],
       demo: "https://mind-mate-fe.vercel.app/",
       github: "https://github.com/xiorw/MindMate-fe",
@@ -258,7 +258,7 @@ const Portfolio = () => {
     {
       title: "Soulmatch",
       description: "Fun matchmaking app that calculates love compatibility using names, birthdates, and zodiac signs — designed for entertainment purposes.",
-      image: "src/assets/projects/soulmatch.jpg",
+      image: "/projects/soulmatch.jpg",
       tech: ["Kotlin"],
       demo: "#",
       github: "https://github.com/xiorw/Soulmatch_MK4B",
@@ -526,7 +526,7 @@ const Portfolio = () => {
                 } p-8 transition-transform duration-300 hover:scale-105`}
               >
                 <img
-                  src="src/assets/frad.png"
+                  src="/frad.png"
                   alt="Muhammad Fardan Wicaksana"
                   class="w-full h-full rounded-2xl object-cover"
                 />
